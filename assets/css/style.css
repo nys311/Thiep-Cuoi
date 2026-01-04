@@ -16,7 +16,7 @@ b { font-weight: bold; }
 .p-absolute { position: absolute; }
 .p-relative { position: relative; }
 .gallery-view-icon-next img, .gallery-view-icon-prev img, .carousel-icon-next img, .carousel-icon-prev img { width: 25px; height: 25px; filter: drop-shadow(black 0px 0px 1px); }
-.icon-play-video { position: absolute; width: 60px; height: 60px; top: calc(50% - 30px); left: calc(50% - 30px); cursor: pointer; background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url("https://content.pancake.vn/1.1/30/5a/c2/93/9ec72c8ce8898050035dddbb989c950bc1faabdc1fdcc11175dea467.svg"); }
+.icon-play-video { position: absolute; width: 60px; height: 60px; top: calc(50% - 30px); left: calc(50% - 30px); cursor: pointer; background-position: center center; background-size: cover; background-repeat: no-repeat; background-image: url("../images/9ec72c8ce8898050035dddbb989c950bc1faabdc1fdcc11175dea467_b208cdb0.svg"); }
 .player-btn-unmute { position: absolute; inset: 0px; margin: auto; cursor: pointer; }
 .player-btn-unmute > div { content: ""; position: absolute; width: 60px; height: 60px; top: calc(50% - 30px); left: calc(50% - 30px); background-size: 90%; background-color: rgba(0, 0, 0, 0.5); border-radius: 100%; background-repeat: no-repeat; background-position: center center; background-image: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2036%2036%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23fff%22%3E%3Cpath%20d%3D%22m%2021.48%2C17.98%20c%200%2C-1.77%20-1.02%2C-3.29%20-2.5%2C-4.03%20v%202.21%20l%202.45%2C2.45%20c%20.03%2C-0.2%20.05%2C-0.41%20.05%2C-0.63%20z%20m%202.5%2C0%20c%200%2C.94%20-0.2%2C1.82%20-0.54%2C2.64%20l%201.51%2C1.51%20c%20.66%2C-1.24%201.03%2C-2.65%201.03%2C-4.15%200%2C-4.28%20-2.99%2C-7.86%20-7%2C-8.76%20v%202.05%20c%202.89%2C.86%205%2C3.54%205%2C6.71%20z%20M%209.25%2C8.98%20l%20-1.27%2C1.26%204.72%2C4.73%20H%207.98%20v%206%20H%2011.98%20l%205%2C5%20v%20-6.73%20l%204.25%2C4.25%20c%20-0.67%2C.52%20-1.42%2C.93%20-2.25%2C1.18%20v%202.06%20c%201.38%2C-0.31%202.63%2C-0.95%203.69%2C-1.81%20l%202.04%2C2.05%201.27%2C-1.27%20-9%2C-9%20-7.72%2C-7.72%20z%20m%207.72%2C.99%20-2.09%2C2.08%202.09%2C2.09%20V%209.98%20z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"); }
 .d-none { display: none; }
@@ -161,7 +161,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 .gallery-controls { position: absolute; }
 .gallery-controls-wrap { display: -webkit-flex; transition: 0.2s; height: max-content; }
 .gallery-controls-wrap .gallery-controls-item { cursor: pointer; position: relative; background-size: cover; background-repeat: no-repeat; background-position: center center; }
-.gallery-controls-item .gallery-controls-item-play-video { position: absolute; top: calc(50% - 15px); left: calc(50% - 15px); background-repeat: no-repeat; width: 30px; height: 30px; background-image: url("https://content.pancake.vn/1.1/30/5a/c2/93/9ec72c8ce8898050035dddbb989c950bc1faabdc1fdcc11175dea467.svg"); }
+.gallery-controls-item .gallery-controls-item-play-video { position: absolute; top: calc(50% - 15px); left: calc(50% - 15px); background-repeat: no-repeat; width: 30px; height: 30px; background-image: url("../images/9ec72c8ce8898050035dddbb989c950bc1faabdc1fdcc11175dea467_b208cdb0.svg"); }
 .gallery-controls-item:last-child { margin: 0px !important; }
 .gallery-controls-item.active::after { background: transparent; }
 .gallery-controls-item::after { content: ""; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); }
@@ -412,7 +412,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-ygzgfqzg .rectangle-css { border-color: rgb(0, 0, 0); border-radius: 4px; border-style: solid; border-width: 1px; background: padding-box rgba(255, 255, 255, 0.5); }
 #w-28vd0z80 { top: 62px; left: 73px; width: 274px; height: 215px; }
 #w-28vd0z80 .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-28vd0z80 .image-background { width: 320.971px; height: 320.971px; top: -46.1273px; left: -24.2686px; background: url("https://content.pancake.vn/1/s720x720/fwebp80/3c/1d/4a/c2/7c72606a2ecee9e0c2a71dd086f10d3fd2e213db7991bdb1d3427e4c-w:2400-h:2400-l:103687-t:image/png.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-28vd0z80 .image-background { width: 320.971px; height: 320.971px; top: -46.1273px; left: -24.2686px; background: url("../images/png_b1a0bf10.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-28vd0z80 .image-background-compare { clip: rect(0px, 137px, 215px, 0px); --type: 0; }
 #w-mulylbau { top: 77.5px; left: 73px; width: 274px; height: auto; }
 #w-mulylbau .line-container { border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; }
@@ -422,7 +422,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-telqj4ow .line-container { border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; }
 #w-fbcanalp { top: 132.5px; left: 313.5px; width: 39px; height: 39px; }
 #w-fbcanalp .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-fbcanalp .image-background { width: 39px; height: 39px; top: 0px; left: 0px; background: url("https://content.pancake.vn/1/s439x439/fwebp80/59/9d/0d/23/829a2a25903e5b03a029f62911ad0300b2c875df84e143b3258f9633-w:3600-h:3600-l:165926-t:image/png.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-fbcanalp .image-background { width: 39px; height: 39px; top: 0px; left: 0px; background: url("../images/png_0339c7c4.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-fbcanalp .image-background-compare { clip: rect(0px, 19.5px, 39px, 0px); --type: 0; }
 #w-4co8x8k1 { top: 14px; left: 22.5px; width: 375px; height: 37.5px; }
 #w-4co8x8k1 .text-block { }
@@ -540,14 +540,14 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-w2336do7 .rectangle-css { border-color: rgb(112, 0, 0); border-radius: 10px; border-style: solid; border-width: 1px; box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px; background: padding-box rgb(255, 255, 255); }
 #w-sem3x4xd { top: 7px; left: 6.5px; width: 121px; height: 121px; }
 #w-sem3x4xd .image-block-css { border-color: rgb(229, 231, 235); border-radius: 10px; border-style: solid; border-width: 0px; position: absolute; }
-#w-sem3x4xd .image-background { width: 120.8px; height: 151px; top: 0px; left: 0px; background: url("https://content.pancake.vn/1/s520x650/fwebp80/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-sem3x4xd .image-background { width: 120.8px; height: 151px; top: 0px; left: 0px; background: url("../images/jpeg_0e9ec8ff.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-sem3x4xd .image-background-compare { clip: rect(0px, 60.5px, 121px, 0px); --type: 0; }
 #w-mmy730wz { top: 13.5px; left: 127.5px; width: 179px; height: 36px; }
 #w-mmy730wz .text-block { }
 #w-mmy730wz .text-block-css { border-color: rgb(229, 231, 235); border-style: solid; font-family: "Cormorant Upright", sans-serif; font-size: 24px; font-weight: bold; text-align: center; --type: 0; }
 #w-nrcl2o7p { top: 42px; left: 172.5px; width: 89px; height: 89px; }
 #w-nrcl2o7p .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; filter: contrast(146%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(82%) sepia(0%) opacity(100%) brightness(64%) blur(0px); position: absolute; }
-#w-nrcl2o7p .image-background { width: 89px; height: 89px; top: 0px; left: 0px; background: url("https://content.pancake.vn/1/s489x489/fwebp80/68/00/1f/72/59dd385d3ef5958cb0fed576ba82ddd8bfa1c07818f908df341f3e36-w:2048-h:2048-l:777409-t:image/png.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-nrcl2o7p .image-background { width: 89px; height: 89px; top: 0px; left: 0px; background: url("../images/png_779bfc5a.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-nrcl2o7p .image-background-compare { clip: rect(0px, 44.5px, 89px, 0px); --type: 0; }
 #w-ve3j29zh { top: 0px; left: 0px; position: relative; width: 420px; height: 601px; }
 #w-ve3j29zh .section-wrapper { opacity: 1; }
@@ -555,19 +555,19 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-ve3j29zh .section-background { background: rgba(255, 255, 255, 0); --type: 0; }
 #w-1zd7gutp { top: 5px; left: 12.5px; width: 194px; height: 290px; }
 #w-1zd7gutp .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-1zd7gutp .image-background { width: 233.164px; height: 291.455px; top: -1.4554px; left: -22px; background: url("https://content.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-1zd7gutp .image-background { width: 233.164px; height: 291.455px; top: -1.4554px; left: -22px; background: url("../images/jpeg_27c26d26.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-1zd7gutp .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-ibxp7o7m { top: 6px; left: 213.5px; width: 194px; height: 290px; }
 #w-ibxp7o7m .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-ibxp7o7m .image-background { width: 237.009px; height: 296.261px; top: -1px; left: -33px; background: url("https://content.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-ibxp7o7m .image-background { width: 237.009px; height: 296.261px; top: -1px; left: -33px; background: url("../images/jpeg_ac5eda91.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-ibxp7o7m .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-za5q6n3r { top: 302.179px; left: 12.5px; width: 194px; height: 290px; }
 #w-za5q6n3r .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-za5q6n3r .image-background { width: 233.164px; height: 291.455px; top: 0px; left: -20.1643px; background: url("https://content.pancake.vn/web-media/73/88/43/3a/c195830f57f8478ddb7b0f2bfc19daf5afee94a359ad0af800df9500-w:900-h:1125-l:224284-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-za5q6n3r .image-background { width: 233.164px; height: 291.455px; top: 0px; left: -20.1643px; background: url("../images/jpeg_49db1d50.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-za5q6n3r .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-jd4xh8jy { top: 303.173px; left: 213.5px; width: 194px; height: 290px; }
 #w-jd4xh8jy .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-jd4xh8jy .image-background { width: 237.009px; height: 296.261px; top: 0px; left: -29.009px; background: url("https://content.pancake.vn/web-media/0a/a4/06/b7/32698f8d7469583bdd81f25f7cfcac33d436259db5a0e3fcbb2c7cc6-w:900-h:1125-l:260166-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-jd4xh8jy .image-background { width: 237.009px; height: 296.261px; top: 0px; left: -29.009px; background: url("../images/jpeg_f6259106.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-jd4xh8jy .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-ww9w4n3i { top: 0px; left: 0px; position: relative; width: 420px; height: 299px; }
 #w-ww9w4n3i .section-wrapper { opacity: 1; }
@@ -575,15 +575,15 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-ww9w4n3i .section-background { background: rgba(255, 255, 255, 0); --type: 0; }
 #w-afrqv1j2 { top: 153.261px; left: 213px; width: 195px; height: 126px; }
 #w-afrqv1j2 .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-afrqv1j2 .image-background { width: 195.321px; height: 244.151px; top: -52px; left: -0.320856px; background: url("https://content.pancake.vn/1/s595x744/fwebp80/46/b8/0b/3b/3272025cef2de9c188a52cb24520ae6d738c26b98cccad29475320a9-w:900-h:1125-l:220186-t:image/jpeg.jpg") center center / cover no-repeat content-box border-box; --type: 0; }
+#w-afrqv1j2 .image-background { width: 195.321px; height: 244.151px; top: -52px; left: -0.320856px; background: url("../images/jpeg_51c37114.jpg") center center / cover no-repeat content-box border-box; --type: 0; }
 #w-afrqv1j2 .image-background-compare { clip: rect(0px, 97.5px, 126px, 0px); --type: 0; }
 #w-712glnp4 { top: 10.7614px; left: 213px; width: 195px; height: 126px; }
 #w-712glnp4 .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-712glnp4 .image-background { width: 195.64px; height: 244.55px; top: -51px; left: -0.640026px; background: url("https://content.pancake.vn/1/s595x744/fwebp80/d4/9e/5f/07/03b4978afe1b5f06cb5bfce627252451ad6c68cea27bccca5ae0f500-w:900-h:1125-l:166937-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-712glnp4 .image-background { width: 195.64px; height: 244.55px; top: -51px; left: -0.640026px; background: url("../images/jpeg_2e7a5d82.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-712glnp4 .image-background-compare { clip: rect(0px, 97.5px, 126px, 0px); --type: 0; }
 #w-t7zoid0w { top: 0px; left: 12px; width: 194px; height: 290px; }
 #w-t7zoid0w .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-t7zoid0w .image-background { width: 233.164px; height: 291.455px; top: 0px; left: 0px; background: url("https://content.pancake.vn/web-media/89/44/e2/23/7d89cbd04bbf43e3f58dccb70820c6798aeb9817dbe0e7c8c6577fee-w:900-h:1125-l:290131-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-t7zoid0w .image-background { width: 233.164px; height: 291.455px; top: 0px; left: 0px; background: url("../images/jpeg_9f9d6c89.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-t7zoid0w .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-pet7zq4u { top: 0px; left: 0px; position: relative; width: 420px; height: 635px; }
 #w-pet7zq4u .section-wrapper { opacity: 1; }
@@ -603,50 +603,50 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-8f240uev .gallery-controls-wrap { flex-direction: row; }
 #w-8f240uev .gallery-controls-item { margin-right: 10px; width: 80px; min-width: 80px; height: 80px; min-height: 80px; }
 #w-8f240uev .gallery-view { height: 535px; width: 100%; }
-#w-8f240uev .gallery-view-item[data-index="0"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="0"].fb { background-image: url("https://statics.pancake.vn/web-media/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="0"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="0"].fb { background-image: url("https://statics.pancake.vn/web-media/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="1"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/f4/8f/e0/b0/19d7174b11c0e901e832fb87ccd7c0745d36f02f339b7bc4aff8c04e-w:900-h:1125-l:359397-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="1"].fb { background-image: url("https://statics.pancake.vn/web-media/f4/8f/e0/b0/19d7174b11c0e901e832fb87ccd7c0745d36f02f339b7bc4aff8c04e-w:900-h:1125-l:359397-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="1"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/f4/8f/e0/b0/19d7174b11c0e901e832fb87ccd7c0745d36f02f339b7bc4aff8c04e-w:900-h:1125-l:359397-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="1"].fb { background-image: url("https://statics.pancake.vn/web-media/f4/8f/e0/b0/19d7174b11c0e901e832fb87ccd7c0745d36f02f339b7bc4aff8c04e-w:900-h:1125-l:359397-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="2"] { background-image: url("https://content.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="2"].fb { background-image: url("https://statics.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="2"] { background-image: url("https://content.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="2"].fb { background-image: url("https://statics.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="3"] { background-image: url("https://content.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="3"].fb { background-image: url("https://statics.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="3"] { background-image: url("https://content.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="3"].fb { background-image: url("https://statics.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="4"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="4"].fb { background-image: url("https://statics.pancake.vn/web-media/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="4"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="4"].fb { background-image: url("https://statics.pancake.vn/web-media/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="5"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/26/b3/fc/b3/872de2a5e9b6c1fbe7ac71da3b52395b65c25d2a409f386e37cac742-w:900-h:1125-l:307896-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="5"].fb { background-image: url("https://statics.pancake.vn/web-media/26/b3/fc/b3/872de2a5e9b6c1fbe7ac71da3b52395b65c25d2a409f386e37cac742-w:900-h:1125-l:307896-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="5"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/26/b3/fc/b3/872de2a5e9b6c1fbe7ac71da3b52395b65c25d2a409f386e37cac742-w:900-h:1125-l:307896-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="5"].fb { background-image: url("https://statics.pancake.vn/web-media/26/b3/fc/b3/872de2a5e9b6c1fbe7ac71da3b52395b65c25d2a409f386e37cac742-w:900-h:1125-l:307896-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="6"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/5a/bc/1c/58/ad28ebe99bbc7daa3ef943344b1c5215214aa41750bd4d72693a9823-w:900-h:1125-l:248620-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="6"].fb { background-image: url("https://statics.pancake.vn/web-media/5a/bc/1c/58/ad28ebe99bbc7daa3ef943344b1c5215214aa41750bd4d72693a9823-w:900-h:1125-l:248620-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="6"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/5a/bc/1c/58/ad28ebe99bbc7daa3ef943344b1c5215214aa41750bd4d72693a9823-w:900-h:1125-l:248620-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="6"].fb { background-image: url("https://statics.pancake.vn/web-media/5a/bc/1c/58/ad28ebe99bbc7daa3ef943344b1c5215214aa41750bd4d72693a9823-w:900-h:1125-l:248620-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="7"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="7"].fb { background-image: url("https://statics.pancake.vn/web-media/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="7"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="7"].fb { background-image: url("https://statics.pancake.vn/web-media/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="8"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/c7/f2/36/48/3886aa4d4957e7e0ed7dc5c625a505471ed9d8cf1607aa423bfaaca5-w:900-h:1125-l:115858-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="8"].fb { background-image: url("https://statics.pancake.vn/web-media/c7/f2/36/48/3886aa4d4957e7e0ed7dc5c625a505471ed9d8cf1607aa423bfaaca5-w:900-h:1125-l:115858-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="8"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/c7/f2/36/48/3886aa4d4957e7e0ed7dc5c625a505471ed9d8cf1607aa423bfaaca5-w:900-h:1125-l:115858-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="8"].fb { background-image: url("https://statics.pancake.vn/web-media/c7/f2/36/48/3886aa4d4957e7e0ed7dc5c625a505471ed9d8cf1607aa423bfaaca5-w:900-h:1125-l:115858-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="9"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/fb/b9/7c/f3/405ee9eff601feaf0ea262dcd97791df897910787dfec07dbe77fe26-w:900-h:1125-l:303855-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="9"].fb { background-image: url("https://statics.pancake.vn/web-media/fb/b9/7c/f3/405ee9eff601feaf0ea262dcd97791df897910787dfec07dbe77fe26-w:900-h:1125-l:303855-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="9"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/fb/b9/7c/f3/405ee9eff601feaf0ea262dcd97791df897910787dfec07dbe77fe26-w:900-h:1125-l:303855-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="9"].fb { background-image: url("https://statics.pancake.vn/web-media/fb/b9/7c/f3/405ee9eff601feaf0ea262dcd97791df897910787dfec07dbe77fe26-w:900-h:1125-l:303855-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="10"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/6d/95/e6/82/0ffa82f4d1d4c9db583ca1d79245059bfa1848f4bddc9523bf8c27aa-w:900-h:1125-l:51177-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="10"].fb { background-image: url("https://statics.pancake.vn/web-media/6d/95/e6/82/0ffa82f4d1d4c9db583ca1d79245059bfa1848f4bddc9523bf8c27aa-w:900-h:1125-l:51177-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="10"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/6d/95/e6/82/0ffa82f4d1d4c9db583ca1d79245059bfa1848f4bddc9523bf8c27aa-w:900-h:1125-l:51177-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="10"].fb { background-image: url("https://statics.pancake.vn/web-media/6d/95/e6/82/0ffa82f4d1d4c9db583ca1d79245059bfa1848f4bddc9523bf8c27aa-w:900-h:1125-l:51177-t:image/jpeg.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="0"] { background-image: url("../images/jpeg_5c0d3095.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="0"].fb { background-image: url("../images/jpeg_fab35cb2.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="0"] { background-image: url("../images/jpeg_5c0d3095.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="0"].fb { background-image: url("../images/jpeg_fab35cb2.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="1"] { background-image: url("../images/jpeg_4e7582ed.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="1"].fb { background-image: url("../images/jpeg_2448dd40.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="1"] { background-image: url("../images/jpeg_4e7582ed.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="1"].fb { background-image: url("../images/jpeg_2448dd40.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="2"] { background-image: url("../images/jpeg_27c26d26.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="2"].fb { background-image: url("../images/jpeg_3091a6e5.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="2"] { background-image: url("../images/jpeg_27c26d26.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="2"].fb { background-image: url("../images/jpeg_3091a6e5.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="3"] { background-image: url("../images/jpeg_ac5eda91.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="3"].fb { background-image: url("../images/jpeg_9e304440.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="3"] { background-image: url("../images/jpeg_ac5eda91.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="3"].fb { background-image: url("../images/jpeg_9e304440.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="4"] { background-image: url("../images/jpeg_29f36994.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="4"].fb { background-image: url("../images/jpeg_808e099e.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="4"] { background-image: url("../images/jpeg_29f36994.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="4"].fb { background-image: url("../images/jpeg_808e099e.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="5"] { background-image: url("../images/jpeg_5a765e82.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="5"].fb { background-image: url("../images/jpeg_4e383b77.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="5"] { background-image: url("../images/jpeg_5a765e82.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="5"].fb { background-image: url("../images/jpeg_4e383b77.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="6"] { background-image: url("../images/jpeg_47bc00ee.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="6"].fb { background-image: url("../images/jpeg_57d131e7.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="6"] { background-image: url("../images/jpeg_47bc00ee.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="6"].fb { background-image: url("../images/jpeg_57d131e7.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="7"] { background-image: url("../images/jpeg_5c0d3095.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="7"].fb { background-image: url("../images/jpeg_fab35cb2.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="7"] { background-image: url("../images/jpeg_5c0d3095.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="7"].fb { background-image: url("../images/jpeg_fab35cb2.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="8"] { background-image: url("../images/jpeg_6d551857.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="8"].fb { background-image: url("../images/jpeg_85dbb1bf.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="8"] { background-image: url("../images/jpeg_6d551857.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="8"].fb { background-image: url("../images/jpeg_85dbb1bf.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="9"] { background-image: url("../images/jpeg_bf92423b.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="9"].fb { background-image: url("../images/jpeg_8327569d.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="9"] { background-image: url("../images/jpeg_bf92423b.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="9"].fb { background-image: url("../images/jpeg_8327569d.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="10"] { background-image: url("../images/jpeg_39526fcd.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="10"].fb { background-image: url("../images/jpeg_2dd5d5e9.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="10"] { background-image: url("../images/jpeg_39526fcd.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="10"].fb { background-image: url("../images/jpeg_2dd5d5e9.jpg"); }
 #w-1kyvmtv5 { top: 0px; left: 0px; position: relative; width: 420px; height: 249px; }
 #w-1kyvmtv5 .section-wrapper { opacity: 1; }
 #w-1kyvmtv5 { margin-bottom: -1px; }
@@ -675,11 +675,11 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-zdxmdp4a .text-block { }
 #w-zdxmdp4a .text-block-css { -webkit-text-stroke: 0px rgb(0, 0, 0); border-color: rgb(229, 231, 235); border-style: solid; color: rgb(0, 0, 0); font-size: 15px; text-align: end; --type: 0; }
 #w-n3om08bp { top: 14px; left: 391px; width: 25px; height: 25px; }
-#w-n3om08bp .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; transform: translateZ(0px); filter: contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%) opacity(100%) brightness(200%) blur(0px); background: url("https://content.pancake.vn/1/be/ad/61/25/69ccff4bf9c533a8297ad940b8f871b8bc7057593d2ec6f7d9c9066b.png") center center / contain no-repeat scroll content-box padding-box; }
+#w-n3om08bp .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; transform: translateZ(0px); filter: contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%) opacity(100%) brightness(200%) blur(0px); background: url("../images/69ccff4bf9c533a8297ad940b8f871b8bc7057593d2ec6f7d9c9066b_a1beef57.png") center center / contain no-repeat scroll content-box padding-box; }
 #w-1ggwr6cl { top: 5.5px; left: 346px; width: 42px; height: 42px; }
-#w-1ggwr6cl .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; background: url("https://content.pancake.vn/web-media/36/b3/ec/ae/eb9548e74deddff898a48c5caa4791b84669476bafc00e5c1704e002-w:980-h:980-l:7525-t:image/webp.webp") center center / contain no-repeat scroll content-box padding-box; }
+#w-1ggwr6cl .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; background: url("../images/webp_5f26b953.webp") center center / contain no-repeat scroll content-box padding-box; }
 #w-2go8utzr { top: 14px; left: 317px; width: 25px; height: 25px; }
-#w-2go8utzr .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; transform: translateZ(0px); filter: contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%) opacity(100%) brightness(100%) blur(0px); background: url("https://content.pancake.vn/1/08/3f/7a/e9/be9a053a77ec7cdb461246a62779525962247b7146d4dcccce9c1cfb.png") center center / cover no-repeat content-box padding-box; }
+#w-2go8utzr .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; transform: translateZ(0px); filter: contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%) opacity(100%) brightness(100%) blur(0px); background: url("../images/be9a053a77ec7cdb461246a62779525962247b7146d4dcccce9c1cfb_e8a54d96.png") center center / cover no-repeat content-box padding-box; }
 #w-pjxg653g { top: 0px; left: 244.5px; width: 423px; height: auto; }
 #w-pjxg653g .line-container { border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; }
 #w-v0y7lpx8 { top: 1px; left: 242.5px; width: 427px; height: 46px; }
@@ -692,7 +692,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-au0o7yap .rectangle-css { mask-image: url("data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSdub25lJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIHZpZXdCb3g9JzAgMCAyNCAyNCc+IDxwYXRoIGQ9J00xMy40NiwxMkwxOSwxNy41NFYxOUgxNy41NEwxMiwxMy40Nkw2LjQ2LDE5SDVWMTcuNTRMMTAuNTQsMTJMNSw2LjQ2VjVINi40NkwxMiwxMC41NEwxNy41NCw1SDE5VjYuNDZMMTMuNDYsMTJaJz48L3BhdGg+IDwvc3ZnPg=="); border-color: rgb(229, 231, 235); border-style: solid; z-index: 1; background: padding-box rgb(255, 255, 255); }
 #w-63tws5md { top: 0px; left: 6.10352e-05px; width: 401px; height: 336px; }
 #w-63tws5md .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-63tws5md .image-background { width: 401px; height: 601.5px; top: -101px; left: 0px; background: url("https://content.pancake.vn/1/s802x1203/fwebp80/20/d7/35/2f/60fb6fad5ea8b4be38fe82c410dc6f40edb8f75053900c916e56bfb4-w:966-h:1449-l:332095-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-63tws5md .image-background { width: 401px; height: 601.5px; top: -101px; left: 0px; background: url("../images/jpeg_f140cc97.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-63tws5md .image-background-compare { clip: rect(0px, 200.5px, 336px, 0px); --type: 0; }
 #w-fvc92ffz { top: 436.784px; left: 10.2571px; width: 375px; height: 34.4965px; }
 #w-fvc92ffz .text-block { }
@@ -715,7 +715,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-vobk8m2o .text-block-css { border-color: rgb(229, 231, 235); border-style: solid; font-family: "UTM-Cafeta.ttf", sans-serif; font-size: 23px; line-height: 1.5; text-align: center; --type: 0; }
 #w-zcjiieo6 { top: 77.5094px; left: 19.5002px; width: 140px; height: 140px; }
 #w-zcjiieo6 .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-zcjiieo6 .image-background { width: 266.599px; height: 576.8px; top: -191px; left: -63.7px; background: url("https://content.pancake.vn/1/s666x1441/fwebp80/11/83/93/27/c91fcbd3c11d401bafafc82e0178e671af2f59f3167097643b9baf99-w:1284-h:2778-l:390596-t:image/jpeg.jpg") center center / cover no-repeat content-box border-box; --type: 0; }
+#w-zcjiieo6 .image-background { width: 266.599px; height: 576.8px; top: -191px; left: -63.7px; background: url("../images/jpeg_ab9902ce.jpg") center center / cover no-repeat content-box border-box; --type: 0; }
 #w-zcjiieo6 .image-background-compare { clip: rect(0px, 70px, 140px, 0px); --type: 0; }
 .-popup-checkout .-close, .-zoom .-close { width: 22px; height: 22px; }
 .-checkout-gallery .gallery-view-item { background-size: cover !important; }
@@ -1049,7 +1049,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-ygzgfqzg .rectangle-css { border-color: rgb(0, 0, 0); border-radius: 4px; border-style: solid; border-width: 1px; background: padding-box rgba(255, 255, 255, 0.5); }
 #w-28vd0z80 { top: 62px; left: 73px; width: 274px; height: 215px; }
 #w-28vd0z80 .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-28vd0z80 .image-background { width: 320.971px; height: 320.971px; top: -46.1273px; left: -24.2686px; background: url("https://content.pancake.vn/1/s720x720/fwebp80/3c/1d/4a/c2/7c72606a2ecee9e0c2a71dd086f10d3fd2e213db7991bdb1d3427e4c-w:2400-h:2400-l:103687-t:image/png.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-28vd0z80 .image-background { width: 320.971px; height: 320.971px; top: -46.1273px; left: -24.2686px; background: url("../images/png_b1a0bf10.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-28vd0z80 .image-background-compare { clip: rect(0px, 137px, 215px, 0px); --type: 0; }
 #w-mulylbau { top: 77.5px; left: 73px; width: 274px; height: auto; }
 #w-mulylbau .line-container { border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; }
@@ -1059,7 +1059,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-telqj4ow .line-container { border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; }
 #w-fbcanalp { top: 132.5px; left: 313.5px; width: 39px; height: 39px; }
 #w-fbcanalp .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-fbcanalp .image-background { width: 39px; height: 39px; top: 0px; left: 0px; background: url("https://content.pancake.vn/1/s439x439/fwebp80/59/9d/0d/23/829a2a25903e5b03a029f62911ad0300b2c875df84e143b3258f9633-w:3600-h:3600-l:165926-t:image/png.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-fbcanalp .image-background { width: 39px; height: 39px; top: 0px; left: 0px; background: url("../images/png_0339c7c4.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-fbcanalp .image-background-compare { clip: rect(0px, 19.5px, 39px, 0px); --type: 0; }
 #w-4co8x8k1 { top: 14px; left: 22.5px; width: 375px; height: 37.5px; }
 #w-4co8x8k1 .text-block { }
@@ -1177,14 +1177,14 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-w2336do7 .rectangle-css { border-color: rgb(112, 0, 0); border-radius: 10px; border-style: solid; border-width: 1px; box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px; background: padding-box rgb(255, 255, 255); }
 #w-sem3x4xd { top: 7px; left: 6.5px; width: 121px; height: 121px; }
 #w-sem3x4xd .image-block-css { border-color: rgb(229, 231, 235); border-radius: 10px; border-style: solid; border-width: 0px; position: absolute; }
-#w-sem3x4xd .image-background { width: 120.8px; height: 151px; top: 0px; left: 0px; background: url("https://content.pancake.vn/1/s520x650/fwebp80/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-sem3x4xd .image-background { width: 120.8px; height: 151px; top: 0px; left: 0px; background: url("../images/jpeg_0e9ec8ff.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-sem3x4xd .image-background-compare { clip: rect(0px, 60.5px, 121px, 0px); --type: 0; }
 #w-mmy730wz { top: 13.5px; left: 127.5px; width: 179px; height: 36px; }
 #w-mmy730wz .text-block { }
 #w-mmy730wz .text-block-css { border-color: rgb(229, 231, 235); border-style: solid; font-family: "Cormorant Upright", sans-serif; font-size: 24px; font-weight: bold; text-align: center; --type: 0; }
 #w-nrcl2o7p { top: 42px; left: 172.5px; width: 89px; height: 89px; }
 #w-nrcl2o7p .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; filter: contrast(146%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(82%) sepia(0%) opacity(100%) brightness(64%) blur(0px); position: absolute; }
-#w-nrcl2o7p .image-background { width: 89px; height: 89px; top: 0px; left: 0px; background: url("https://content.pancake.vn/1/s489x489/fwebp80/68/00/1f/72/59dd385d3ef5958cb0fed576ba82ddd8bfa1c07818f908df341f3e36-w:2048-h:2048-l:777409-t:image/png.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-nrcl2o7p .image-background { width: 89px; height: 89px; top: 0px; left: 0px; background: url("../images/png_779bfc5a.png") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-nrcl2o7p .image-background-compare { clip: rect(0px, 44.5px, 89px, 0px); --type: 0; }
 #w-ve3j29zh { top: 0px; left: 0px; position: relative; width: 420px; height: 601px; }
 #w-ve3j29zh .section-wrapper { opacity: 1; }
@@ -1192,19 +1192,19 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-ve3j29zh .section-background { background: rgba(255, 255, 255, 0); --type: 0; }
 #w-1zd7gutp { top: 5px; left: 12.5px; width: 194px; height: 290px; }
 #w-1zd7gutp .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-1zd7gutp .image-background { width: 233.164px; height: 291.455px; top: -1.4554px; left: -22px; background: url("https://content.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-1zd7gutp .image-background { width: 233.164px; height: 291.455px; top: -1.4554px; left: -22px; background: url("../images/jpeg_27c26d26.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-1zd7gutp .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-ibxp7o7m { top: 6px; left: 213.5px; width: 194px; height: 290px; }
 #w-ibxp7o7m .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-ibxp7o7m .image-background { width: 237.009px; height: 296.261px; top: -1px; left: -33px; background: url("https://content.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-ibxp7o7m .image-background { width: 237.009px; height: 296.261px; top: -1px; left: -33px; background: url("../images/jpeg_ac5eda91.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-ibxp7o7m .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-za5q6n3r { top: 302.179px; left: 12.5px; width: 194px; height: 290px; }
 #w-za5q6n3r .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-za5q6n3r .image-background { width: 233.164px; height: 291.455px; top: 0px; left: -20.1643px; background: url("https://content.pancake.vn/web-media/73/88/43/3a/c195830f57f8478ddb7b0f2bfc19daf5afee94a359ad0af800df9500-w:900-h:1125-l:224284-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-za5q6n3r .image-background { width: 233.164px; height: 291.455px; top: 0px; left: -20.1643px; background: url("../images/jpeg_49db1d50.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-za5q6n3r .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-jd4xh8jy { top: 303.173px; left: 213.5px; width: 194px; height: 290px; }
 #w-jd4xh8jy .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-jd4xh8jy .image-background { width: 237.009px; height: 296.261px; top: 0px; left: -29.009px; background: url("https://content.pancake.vn/web-media/0a/a4/06/b7/32698f8d7469583bdd81f25f7cfcac33d436259db5a0e3fcbb2c7cc6-w:900-h:1125-l:260166-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-jd4xh8jy .image-background { width: 237.009px; height: 296.261px; top: 0px; left: -29.009px; background: url("../images/jpeg_f6259106.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-jd4xh8jy .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-ww9w4n3i { top: 0px; left: 0px; position: relative; width: 420px; height: 299px; }
 #w-ww9w4n3i .section-wrapper { opacity: 1; }
@@ -1212,15 +1212,15 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-ww9w4n3i .section-background { background: rgba(255, 255, 255, 0); --type: 0; }
 #w-afrqv1j2 { top: 153.261px; left: 213px; width: 195px; height: 126px; }
 #w-afrqv1j2 .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-afrqv1j2 .image-background { width: 195.321px; height: 244.151px; top: -52px; left: -0.320856px; background: url("https://content.pancake.vn/1/s595x744/fwebp80/46/b8/0b/3b/3272025cef2de9c188a52cb24520ae6d738c26b98cccad29475320a9-w:900-h:1125-l:220186-t:image/jpeg.jpg") center center / cover no-repeat content-box border-box; --type: 0; }
+#w-afrqv1j2 .image-background { width: 195.321px; height: 244.151px; top: -52px; left: -0.320856px; background: url("../images/jpeg_51c37114.jpg") center center / cover no-repeat content-box border-box; --type: 0; }
 #w-afrqv1j2 .image-background-compare { clip: rect(0px, 97.5px, 126px, 0px); --type: 0; }
 #w-712glnp4 { top: 10.7614px; left: 213px; width: 195px; height: 126px; }
 #w-712glnp4 .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-712glnp4 .image-background { width: 195.64px; height: 244.55px; top: -51px; left: -0.640026px; background: url("https://content.pancake.vn/1/s595x744/fwebp80/d4/9e/5f/07/03b4978afe1b5f06cb5bfce627252451ad6c68cea27bccca5ae0f500-w:900-h:1125-l:166937-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-712glnp4 .image-background { width: 195.64px; height: 244.55px; top: -51px; left: -0.640026px; background: url("../images/jpeg_2e7a5d82.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-712glnp4 .image-background-compare { clip: rect(0px, 97.5px, 126px, 0px); --type: 0; }
 #w-t7zoid0w { top: 0px; left: 12px; width: 194px; height: 290px; }
 #w-t7zoid0w .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-t7zoid0w .image-background { width: 233.164px; height: 291.455px; top: 0px; left: 0px; background: url("https://content.pancake.vn/web-media/89/44/e2/23/7d89cbd04bbf43e3f58dccb70820c6798aeb9817dbe0e7c8c6577fee-w:900-h:1125-l:290131-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-t7zoid0w .image-background { width: 233.164px; height: 291.455px; top: 0px; left: 0px; background: url("../images/jpeg_9f9d6c89.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-t7zoid0w .image-background-compare { clip: rect(0px, 97px, 290px, 0px); --type: 0; }
 #w-pet7zq4u { top: 0px; left: 0px; position: relative; width: 420px; height: 635px; }
 #w-pet7zq4u .section-wrapper { opacity: 1; }
@@ -1240,50 +1240,50 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-8f240uev .gallery-controls-wrap { flex-direction: row; }
 #w-8f240uev .gallery-controls-item { margin-right: 10px; width: 80px; min-width: 80px; height: 80px; min-height: 80px; }
 #w-8f240uev .gallery-view { height: 535px; width: 100%; }
-#w-8f240uev .gallery-view-item[data-index="0"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="0"].fb { background-image: url("https://statics.pancake.vn/web-media/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="0"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="0"].fb { background-image: url("https://statics.pancake.vn/web-media/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="1"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/f4/8f/e0/b0/19d7174b11c0e901e832fb87ccd7c0745d36f02f339b7bc4aff8c04e-w:900-h:1125-l:359397-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="1"].fb { background-image: url("https://statics.pancake.vn/web-media/f4/8f/e0/b0/19d7174b11c0e901e832fb87ccd7c0745d36f02f339b7bc4aff8c04e-w:900-h:1125-l:359397-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="1"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/f4/8f/e0/b0/19d7174b11c0e901e832fb87ccd7c0745d36f02f339b7bc4aff8c04e-w:900-h:1125-l:359397-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="1"].fb { background-image: url("https://statics.pancake.vn/web-media/f4/8f/e0/b0/19d7174b11c0e901e832fb87ccd7c0745d36f02f339b7bc4aff8c04e-w:900-h:1125-l:359397-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="2"] { background-image: url("https://content.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="2"].fb { background-image: url("https://statics.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="2"] { background-image: url("https://content.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="2"].fb { background-image: url("https://statics.pancake.vn/web-media/c7/12/57/61/92ef7eb39524455b6f161050a47753e2f6a952b078a8c1dd4566eaf3-w:900-h:1125-l:100972-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="3"] { background-image: url("https://content.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="3"].fb { background-image: url("https://statics.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="3"] { background-image: url("https://content.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="3"].fb { background-image: url("https://statics.pancake.vn/web-media/33/f5/5c/98/171db3b2d0d9546b7989e5bea90323a3d8f609c1efd1dfa85ec0250e-w:900-h:1125-l:108137-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="4"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="4"].fb { background-image: url("https://statics.pancake.vn/web-media/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="4"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="4"].fb { background-image: url("https://statics.pancake.vn/web-media/31/79/c6/e4/d56354e14efd98f183cc6eda204a34499d8b7872f014b41df290fd78-w:900-h:1125-l:111307-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="5"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/26/b3/fc/b3/872de2a5e9b6c1fbe7ac71da3b52395b65c25d2a409f386e37cac742-w:900-h:1125-l:307896-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="5"].fb { background-image: url("https://statics.pancake.vn/web-media/26/b3/fc/b3/872de2a5e9b6c1fbe7ac71da3b52395b65c25d2a409f386e37cac742-w:900-h:1125-l:307896-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="5"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/26/b3/fc/b3/872de2a5e9b6c1fbe7ac71da3b52395b65c25d2a409f386e37cac742-w:900-h:1125-l:307896-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="5"].fb { background-image: url("https://statics.pancake.vn/web-media/26/b3/fc/b3/872de2a5e9b6c1fbe7ac71da3b52395b65c25d2a409f386e37cac742-w:900-h:1125-l:307896-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="6"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/5a/bc/1c/58/ad28ebe99bbc7daa3ef943344b1c5215214aa41750bd4d72693a9823-w:900-h:1125-l:248620-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="6"].fb { background-image: url("https://statics.pancake.vn/web-media/5a/bc/1c/58/ad28ebe99bbc7daa3ef943344b1c5215214aa41750bd4d72693a9823-w:900-h:1125-l:248620-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="6"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/5a/bc/1c/58/ad28ebe99bbc7daa3ef943344b1c5215214aa41750bd4d72693a9823-w:900-h:1125-l:248620-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="6"].fb { background-image: url("https://statics.pancake.vn/web-media/5a/bc/1c/58/ad28ebe99bbc7daa3ef943344b1c5215214aa41750bd4d72693a9823-w:900-h:1125-l:248620-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="7"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="7"].fb { background-image: url("https://statics.pancake.vn/web-media/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="7"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="7"].fb { background-image: url("https://statics.pancake.vn/web-media/0a/35/33/aa/bb5b657182b9567bd9cef73b375252840a0b6963e944c6cd88ca8baf-w:900-h:1125-l:295443-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="8"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/c7/f2/36/48/3886aa4d4957e7e0ed7dc5c625a505471ed9d8cf1607aa423bfaaca5-w:900-h:1125-l:115858-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="8"].fb { background-image: url("https://statics.pancake.vn/web-media/c7/f2/36/48/3886aa4d4957e7e0ed7dc5c625a505471ed9d8cf1607aa423bfaaca5-w:900-h:1125-l:115858-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="8"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/c7/f2/36/48/3886aa4d4957e7e0ed7dc5c625a505471ed9d8cf1607aa423bfaaca5-w:900-h:1125-l:115858-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="8"].fb { background-image: url("https://statics.pancake.vn/web-media/c7/f2/36/48/3886aa4d4957e7e0ed7dc5c625a505471ed9d8cf1607aa423bfaaca5-w:900-h:1125-l:115858-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="9"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/fb/b9/7c/f3/405ee9eff601feaf0ea262dcd97791df897910787dfec07dbe77fe26-w:900-h:1125-l:303855-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="9"].fb { background-image: url("https://statics.pancake.vn/web-media/fb/b9/7c/f3/405ee9eff601feaf0ea262dcd97791df897910787dfec07dbe77fe26-w:900-h:1125-l:303855-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="9"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/fb/b9/7c/f3/405ee9eff601feaf0ea262dcd97791df897910787dfec07dbe77fe26-w:900-h:1125-l:303855-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="9"].fb { background-image: url("https://statics.pancake.vn/web-media/fb/b9/7c/f3/405ee9eff601feaf0ea262dcd97791df897910787dfec07dbe77fe26-w:900-h:1125-l:303855-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-view-item[data-index="10"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/6d/95/e6/82/0ffa82f4d1d4c9db583ca1d79245059bfa1848f4bddc9523bf8c27aa-w:900-h:1125-l:51177-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-view-item[data-index="10"].fb { background-image: url("https://statics.pancake.vn/web-media/6d/95/e6/82/0ffa82f4d1d4c9db583ca1d79245059bfa1848f4bddc9523bf8c27aa-w:900-h:1125-l:51177-t:image/jpeg.jpg"); }
-#w-8f240uev .gallery-controls-item[data-index="10"] { background-image: url("https://content.pancake.vn/1/s797x997/fwebp80/6d/95/e6/82/0ffa82f4d1d4c9db583ca1d79245059bfa1848f4bddc9523bf8c27aa-w:900-h:1125-l:51177-t:image/jpeg.jpg"); --type: 0; }
-#w-8f240uev .gallery-controls-item[data-index="10"].fb { background-image: url("https://statics.pancake.vn/web-media/6d/95/e6/82/0ffa82f4d1d4c9db583ca1d79245059bfa1848f4bddc9523bf8c27aa-w:900-h:1125-l:51177-t:image/jpeg.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="0"] { background-image: url("../images/jpeg_5c0d3095.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="0"].fb { background-image: url("../images/jpeg_fab35cb2.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="0"] { background-image: url("../images/jpeg_5c0d3095.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="0"].fb { background-image: url("../images/jpeg_fab35cb2.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="1"] { background-image: url("../images/jpeg_4e7582ed.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="1"].fb { background-image: url("../images/jpeg_2448dd40.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="1"] { background-image: url("../images/jpeg_4e7582ed.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="1"].fb { background-image: url("../images/jpeg_2448dd40.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="2"] { background-image: url("../images/jpeg_27c26d26.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="2"].fb { background-image: url("../images/jpeg_3091a6e5.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="2"] { background-image: url("../images/jpeg_27c26d26.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="2"].fb { background-image: url("../images/jpeg_3091a6e5.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="3"] { background-image: url("../images/jpeg_ac5eda91.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="3"].fb { background-image: url("../images/jpeg_9e304440.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="3"] { background-image: url("../images/jpeg_ac5eda91.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="3"].fb { background-image: url("../images/jpeg_9e304440.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="4"] { background-image: url("../images/jpeg_29f36994.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="4"].fb { background-image: url("../images/jpeg_808e099e.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="4"] { background-image: url("../images/jpeg_29f36994.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="4"].fb { background-image: url("../images/jpeg_808e099e.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="5"] { background-image: url("../images/jpeg_5a765e82.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="5"].fb { background-image: url("../images/jpeg_4e383b77.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="5"] { background-image: url("../images/jpeg_5a765e82.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="5"].fb { background-image: url("../images/jpeg_4e383b77.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="6"] { background-image: url("../images/jpeg_47bc00ee.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="6"].fb { background-image: url("../images/jpeg_57d131e7.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="6"] { background-image: url("../images/jpeg_47bc00ee.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="6"].fb { background-image: url("../images/jpeg_57d131e7.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="7"] { background-image: url("../images/jpeg_5c0d3095.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="7"].fb { background-image: url("../images/jpeg_fab35cb2.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="7"] { background-image: url("../images/jpeg_5c0d3095.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="7"].fb { background-image: url("../images/jpeg_fab35cb2.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="8"] { background-image: url("../images/jpeg_6d551857.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="8"].fb { background-image: url("../images/jpeg_85dbb1bf.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="8"] { background-image: url("../images/jpeg_6d551857.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="8"].fb { background-image: url("../images/jpeg_85dbb1bf.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="9"] { background-image: url("../images/jpeg_bf92423b.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="9"].fb { background-image: url("../images/jpeg_8327569d.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="9"] { background-image: url("../images/jpeg_bf92423b.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="9"].fb { background-image: url("../images/jpeg_8327569d.jpg"); }
+#w-8f240uev .gallery-view-item[data-index="10"] { background-image: url("../images/jpeg_39526fcd.jpg"); --type: 0; }
+#w-8f240uev .gallery-view-item[data-index="10"].fb { background-image: url("../images/jpeg_2dd5d5e9.jpg"); }
+#w-8f240uev .gallery-controls-item[data-index="10"] { background-image: url("../images/jpeg_39526fcd.jpg"); --type: 0; }
+#w-8f240uev .gallery-controls-item[data-index="10"].fb { background-image: url("../images/jpeg_2dd5d5e9.jpg"); }
 #w-1kyvmtv5 { top: 0px; left: 0px; position: relative; width: 420px; height: 249px; }
 #w-1kyvmtv5 .section-wrapper { opacity: 1; }
 #w-1kyvmtv5 { margin-bottom: -1px; }
@@ -1312,11 +1312,11 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-zdxmdp4a .text-block { }
 #w-zdxmdp4a .text-block-css { -webkit-text-stroke: 0px rgb(0, 0, 0); border-color: rgb(229, 231, 235); border-style: solid; color: rgb(0, 0, 0); font-size: 15px; text-align: end; --type: 0; }
 #w-n3om08bp { top: 14px; left: 391px; width: 25px; height: 25px; }
-#w-n3om08bp .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; transform: translateZ(0px); filter: contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%) opacity(100%) brightness(200%) blur(0px); background: url("https://content.pancake.vn/1/be/ad/61/25/69ccff4bf9c533a8297ad940b8f871b8bc7057593d2ec6f7d9c9066b.png") center center / contain no-repeat scroll content-box padding-box; }
+#w-n3om08bp .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; transform: translateZ(0px); filter: contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%) opacity(100%) brightness(200%) blur(0px); background: url("../images/69ccff4bf9c533a8297ad940b8f871b8bc7057593d2ec6f7d9c9066b_a1beef57.png") center center / contain no-repeat scroll content-box padding-box; }
 #w-1ggwr6cl { top: 5.5px; left: 346px; width: 42px; height: 42px; }
-#w-1ggwr6cl .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; background: url("https://content.pancake.vn/web-media/36/b3/ec/ae/eb9548e74deddff898a48c5caa4791b84669476bafc00e5c1704e002-w:980-h:980-l:7525-t:image/webp.webp") center center / contain no-repeat scroll content-box padding-box; }
+#w-1ggwr6cl .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; background: url("../images/webp_5f26b953.webp") center center / contain no-repeat scroll content-box padding-box; }
 #w-2go8utzr { top: 14px; left: 317px; width: 25px; height: 25px; }
-#w-2go8utzr .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; transform: translateZ(0px); filter: contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%) opacity(100%) brightness(100%) blur(0px); background: url("https://content.pancake.vn/1/08/3f/7a/e9/be9a053a77ec7cdb461246a62779525962247b7146d4dcccce9c1cfb.png") center center / cover no-repeat content-box padding-box; }
+#w-2go8utzr .rectangle-css { border-color: rgb(229, 231, 235); border-style: solid; transform: translateZ(0px); filter: contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(100%) sepia(0%) opacity(100%) brightness(100%) blur(0px); background: url("../images/be9a053a77ec7cdb461246a62779525962247b7146d4dcccce9c1cfb_e8a54d96.png") center center / cover no-repeat content-box padding-box; }
 #w-pjxg653g { top: 0px; left: 244.5px; width: 423px; height: auto; }
 #w-pjxg653g .line-container { border-color: rgb(0, 0, 0); border-style: solid; border-width: 1px; }
 #w-v0y7lpx8 { top: 1px; left: 242.5px; width: 427px; height: 46px; }
@@ -1329,7 +1329,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-au0o7yap .rectangle-css { mask-image: url("data:image/svg+xml;base64,PHN2ZyBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSdub25lJyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIHZpZXdCb3g9JzAgMCAyNCAyNCc+IDxwYXRoIGQ9J00xMy40NiwxMkwxOSwxNy41NFYxOUgxNy41NEwxMiwxMy40Nkw2LjQ2LDE5SDVWMTcuNTRMMTAuNTQsMTJMNSw2LjQ2VjVINi40NkwxMiwxMC41NEwxNy41NCw1SDE5VjYuNDZMMTMuNDYsMTJaJz48L3BhdGg+IDwvc3ZnPg=="); border-color: rgb(229, 231, 235); border-style: solid; z-index: 1; background: padding-box rgb(255, 255, 255); }
 #w-63tws5md { top: 0px; left: 6.10352e-05px; width: 401px; height: 336px; }
 #w-63tws5md .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-63tws5md .image-background { width: 401px; height: 601.5px; top: -101px; left: 0px; background: url("https://content.pancake.vn/1/s802x1203/fwebp80/20/d7/35/2f/60fb6fad5ea8b4be38fe82c410dc6f40edb8f75053900c916e56bfb4-w:966-h:1449-l:332095-t:image/jpeg.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
+#w-63tws5md .image-background { width: 401px; height: 601.5px; top: -101px; left: 0px; background: url("../images/jpeg_f140cc97.jpg") center center / cover no-repeat scroll content-box border-box; --type: 0; }
 #w-63tws5md .image-background-compare { clip: rect(0px, 200.5px, 336px, 0px); --type: 0; }
 #w-fvc92ffz { top: 436.784px; left: 10.2571px; width: 375px; height: 34.4965px; }
 #w-fvc92ffz .text-block { }
@@ -1352,7 +1352,7 @@ img:not([src]), img[src=""] { visibility: hidden; }
 #w-vobk8m2o .text-block-css { border-color: rgb(229, 231, 235); border-style: solid; font-family: "UTM-Cafeta.ttf", sans-serif; font-size: 23px; line-height: 1.5; text-align: center; --type: 0; }
 #w-zcjiieo6 { top: 77.5094px; left: 19.5002px; width: 140px; height: 140px; }
 #w-zcjiieo6 .image-block-css { border-color: rgb(229, 231, 235); border-style: solid; border-width: 0px; position: absolute; }
-#w-zcjiieo6 .image-background { width: 266.599px; height: 576.8px; top: -191px; left: -63.7px; background: url("https://content.pancake.vn/1/s666x1441/fwebp80/11/83/93/27/c91fcbd3c11d401bafafc82e0178e671af2f59f3167097643b9baf99-w:1284-h:2778-l:390596-t:image/jpeg.jpg") center center / cover no-repeat content-box border-box; --type: 0; }
+#w-zcjiieo6 .image-background { width: 266.599px; height: 576.8px; top: -191px; left: -63.7px; background: url("../images/jpeg_ab9902ce.jpg") center center / cover no-repeat content-box border-box; --type: 0; }
 #w-zcjiieo6 .image-background-compare { clip: rect(0px, 70px, 140px, 0px); --type: 0; }
 .-popup-checkout .-close, .-zoom .-close { width: 22px; height: 22px; }
 .-checkout-gallery .gallery-view-item { background-size: cover !important; }
@@ -1526,11 +1526,11 @@ img:not([src]), img[src=""] { visibility: hidden; }
   #music-toggle { bottom: 12px; left: 12px; }
 }
 
-@font-face { font-family: "PinyonScript-Regular.ttf"; src: url("https://statics.pancake.vn/web-media/0f/81/6f/50/c0a25ed5e687570f2b43c16c1954969db6121095dcec2ad0745cdb0e-w:0-h:0-l:149276-t:application/octet-stream.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "NVNFunkySignature-Regular.ttf"; src: url("https://statics.pancake.vn/web-media/12/5f/72/1a/ee8c17dc5e393683afdea8b10c63ce08cc29bd15d2bdf5a3ce3a76b6-w:0-h:0-l:121292-t:application/octet-stream.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "NVN-Motherland-Signature.ttf"; src: url("https://statics.pancake.vn/web-media/39/10/c3/45/83eead650fc5448d9594d0d107bbb42bde9bbe182052b95fb8cae6e0-w:0-h:0-l:228568-t:application/octet-stream.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "UTM-Cafeta.ttf"; src: url("https://statics.pancake.vn/web-media/04/eb/01/7a/e19221a44fabb6fd54c6339fd43b1c25ebbe20e97f6633beed4cbc79-w:0-h:0-l:31526-t:application/octet-stream.ttf") format("truetype"); font-display: swap; }
-@font-face { font-family: "SVN-Mightiest.otf"; src: url("https://statics.pancake.vn/web-media/38/a8/63/6b/be3591beaa1faddc0f76fe23aac05f5d907411cd2b0e4652bc5ed081-w:0-h:0-l:23809-t:application/octet-stream.otf") format("opentype"); font-display: swap; }
-@font-face { font-family: "BlackMango-Medium.otf"; src: url("https://statics.pancake.vn/web-media/f5/f1/41/aa/b6a0dd0c2a8cc07c0be70e066410a2cb9506e4ae9a3d88a8e238b53c-w:0-h:0-l:52546-t:application/octet-stream.otf") format("opentype"); font-display: swap; }
-@font-face { font-family: "AlexBrush-Regular.ttf"; src: url("https://statics.pancake.vn/web-media/7f/17/e9/f1/cb9ca1db4d08288384fa9e241cbc74923dcbb9c5701b6caf519deb13-w:0-h:0-l:115722-t:application/octet-stream.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "PinyonScript-Regular.ttf"; src: url("../images/octet-stream_1933d4d2.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "NVNFunkySignature-Regular.ttf"; src: url("../images/octet-stream_6f8a90bf.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "NVN-Motherland-Signature.ttf"; src: url("../images/octet-stream_b82dcd10.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "UTM-Cafeta.ttf"; src: url("../images/octet-stream_b7b4ed9d.ttf") format("truetype"); font-display: swap; }
+@font-face { font-family: "SVN-Mightiest.otf"; src: url("../images/octet-stream_32bfbc56.otf") format("opentype"); font-display: swap; }
+@font-face { font-family: "BlackMango-Medium.otf"; src: url("../images/octet-stream_7e30e26a.otf") format("opentype"); font-display: swap; }
+@font-face { font-family: "AlexBrush-Regular.ttf"; src: url("../images/octet-stream_926f1eb9.ttf") format("truetype"); font-display: swap; }
 
