@@ -995,7 +995,7 @@
     background-position: center;
     transition: transform .5s ease-in-out;
     -webkit-transition: -webkit-transform .5s ease-in-out;
-    display: none;
+    display: block;
     width: 100%;
     height: 100%;
     top: 0;
@@ -1189,7 +1189,7 @@
 
   .gallery-view-icon-prev {
     left: 10px;
-    display: none
+    display: block
   }
 
   .gallery-scroll {
@@ -4122,7 +4122,7 @@
   #w-8f240uev .gallery-view-icon-prev .icon-prev {
     width: 20px;
     height: 20px;
-    display: block;
+    display: none;
   }
 
   #w-8f240uev .gallery-controls-icon-next img {
@@ -4273,7 +4273,7 @@
   }
 
   #w-8f240uev .gallery-view-item[data-index="5"] {
-    background-image: url(assets/images/jpeg_5a765e82.jpg);
+    background-image: url(assets/images/jpeg_5a765e82_4.jpg);
     --type: 0;
   }
 
@@ -4282,7 +4282,7 @@
   }
 
   #w-8f240uev .gallery-controls-item[data-index="5"] {
-    background-image: url(assets/images/jpeg_5a765e82.jpg);
+    background-image: url(assets/images/jpeg_5a765e82_4.jpg);
     --type: 0;
   }
 
@@ -4309,7 +4309,7 @@
   }
 
   #w-8f240uev .gallery-view-item[data-index="7"] {
-    background-image: url(assets/images/jpeg_5c0d3095.jpg);
+    background-image: url(assets/images/jpeg_5a765e82.jpg);
     --type: 0;
   }
 
@@ -4318,7 +4318,7 @@
   }
 
   #w-8f240uev .gallery-controls-item[data-index="7"] {
-    background-image: url(assets/images/jpeg_5c0d3095.jpg);
+    background-image: url(assets/images/jpeg_5a765e82.jpg);
     --type: 0;
   }
 
@@ -4380,6 +4380,7 @@
     background-image: url(assets/images/jpeg_2dd5d5e9.jpg);
   }
 
+  
   #w-1kyvmtv5 {
     top: 0px;
     left: 0px;
@@ -7227,7 +7228,7 @@
      border-radius: 4px;
      border-style: solid;
      border-width: 1px;
-     background: rgba(255, 255, 255, 0.500);
+     background: rgba(253, 249, 242);
      background-clip: padding-box;
    }
 
@@ -8081,7 +8082,7 @@
    }
 
    #w-64xgwt5g {
-     top: 506px;
+     top: 100px;
      left: 57px;
      width: 307px;
      height: 135px;
@@ -8476,7 +8477,7 @@
    #w-8f240uev .gallery-view-icon-prev img,
    #w-8f240uev .gallery-controls-icon-next img,
    #w-8f240uev .gallery-controls-icon-prev img {
-     display: none;
+     display: block;
    }
 
    #w-8f240uev .gallery-view-icon-next .icon-next,
@@ -8487,12 +8488,12 @@
    }
 
    #w-8f240uev .gallery-controls-icon-next img {
-     display: none;
+     display: block;
    }
 
    ,
    #w-8f240uev .gallery-controls-icon-prev img {
-     display: none;
+     display: block;
    }
 
    #w-8f240uev .gallery-view-icon-next .icon-next,
@@ -8542,6 +8543,21 @@
      height: 535px;
      width: 100%;
    }
+
+   #w-8f240uev .gallery-view-item {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity .4s ease;
+  background-size: cover;
+  background-position: center;
+}
+
+#w-8f240uev .gallery-view-item.active {
+  opacity: 1;
+  z-index: 2;
+}
 
    #w-8f240uev .gallery-view-item[data-index="0"] {
      background-image: url(assets/images/jpeg_5c0d3095.jpg);
@@ -10467,7 +10483,7 @@ const MAPPING = [
 { id: "w-shtltoai", text: "ÔNG ĐỖ VIẾT THỊNH\nBÀ NGUYỄN THỊ HỒNG NGA "},
 { id: "w-my5xz6ei", text: "08 "},
 { id: "w-u6akw7co", text: "03 "},
-{ id: "w-xy9f4dha", text: "LỄ ĂN HỎI"},
+{ id: "w-xy9f4dha", text: "LỄ VU QUY"},
 { id: "w-mny38gs2", text: "15:00 - Thứ Bảy"},
 { id: "w-hgwc339b", text: "07.03.2026 "},
 { id: "w-azrgnszs", text: "(Tức Ngày 19 Tháng Giêng Năm Bính Ngọ) "},
@@ -10698,7 +10714,157 @@ BÀ TRẦN THỊ THƯ ANH <br/></p></div></div><div class="com-html-box p-absolu
 </div>
 
 
-<div class="com-text-block p-absolute" data-manus_click_id="97" data-manus_clickable="true" id="w-mmy730wz"><div class="text-block"><p class="text-block-css full-width">Gửi Mừng Cưới<br/></p></div></div><div class="com-image-block p-absolute" data-manus_click_id="98" data-manus_clickable="true" id="w-nrcl2o7p"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div></div></div></div></div></div><div class="com-section" data-manus_click_id="99" data-manus_clickable="true" data-section="" id="w-ve3j29zh"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative"><div class="com-image-block p-absolute is-animation" data-manus_click_id="100" data-manus_clickable="true" id="w-1zd7gutp"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="101" data-manus_clickable="true" id="w-ibxp7o7m"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="102" data-manus_clickable="true" id="w-za5q6n3r"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="103" data-manus_clickable="true" id="w-jd4xh8jy"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div></div></div></div><div class="com-section" data-manus_click_id="104" data-manus_clickable="true" data-section="" id="w-ww9w4n3i"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative"><div class="com-image-block p-absolute is-animation" data-manus_click_id="105" data-manus_clickable="true" id="w-afrqv1j2"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="106" data-manus_clickable="true" id="w-712glnp4"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="107" data-manus_clickable="true" id="w-t7zoid0w"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div></div></div></div><div class="com-section" data-manus_click_id="108" data-manus_clickable="true" data-section="" id="w-pet7zq4u"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative"><div class="com-gallery p-absolute" data-manus_click_id="109" data-manus_clickable="true" id="w-8f240uev"><div class="gallery-wrapper full-width full-height p-absolute"><div class="gallery-view p-absolute"><div aria-label="" class="gallery-view-item p-absolute active lazy" data-index="0" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="1" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="2" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="3" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="4" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="5" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="6" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="7" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="8" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="9" role="img"></div><div aria-label="" class="gallery-view-item p-absolute lazy" data-index="10" role="img"></div><div class="gallery-view-icon-next"><img alt="navigation" src="assets/images/ce7bea1db3f2c535a89a2c99988aeba8d3a361b2c72c9d08950d10e7_ba2e208f.svg"/><div class="icon-next"></div></div><div class="gallery-view-icon-prev"><img alt="navigation" src="assets/images/41806a12b05813bfc36f3ad3d1a580aa060a9d8f1736cc38e197a61f_fd402d82.svg"/><div class="icon-prev"></div></div></div><div class="gallery-controls"><div class="gallery-scroll full-height"><div class="gallery-controls-wrap"><div class="gallery-controls-item active lazy" data-index="0"></div><div class="gallery-controls-item lazy" data-index="1"></div><div class="gallery-controls-item lazy" data-index="2"></div><div class="gallery-controls-item lazy" data-index="3"></div><div class="gallery-controls-item lazy" data-index="4"></div><div class="gallery-controls-item lazy" data-index="5"></div><div class="gallery-controls-item lazy" data-index="6"></div><div class="gallery-controls-item lazy" data-index="7"></div><div class="gallery-controls-item lazy" data-index="8"></div><div class="gallery-controls-item lazy" data-index="9"></div><div class="gallery-controls-item lazy" data-index="10"></div></div></div><div class="gallery-controls-icon-next"><img alt="navigation" src="assets/images/ce7bea1db3f2c535a89a2c99988aeba8d3a361b2c72c9d08950d10e7_ba2e208f.svg"/><div class="control-next"></div></div><div class="gallery-controls-icon-prev"><img alt="navigation" src="assets/images/41806a12b05813bfc36f3ad3d1a580aa060a9d8f1736cc38e197a61f_fd402d82.svg"/><div class="control-prev"></div></div></div></div></div></div></div></div><div class="com-section" data-manus_click_id="110" data-manus_clickable="true" data-section="" id="w-1kyvmtv5"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative"><div class="com-text-block p-absolute is-animation" data-manus_click_id="111" data-manus_clickable="true" id="w-80wcf9fe"><div class="text-block"><p class="text-block-css full-width">Rất Hân Hạnh Được Đón Tiếp!</p></div></div><div class="com-text-block p-absolute is-animation" data-manus_click_id="112" data-manus_clickable="true" id="w-eyju40b5"><div class="text-block"><h2 class="text-block-css full-width">Đức Kiên </h2></div></div><div class="com-text-block p-absolute is-animation" data-manus_click_id="113" data-manus_clickable="true" id="w-9bqblrni"><div class="text-block"><h2 class="text-block-css full-width">07.03.2026 </h2></div></div><div class="com-text-block p-absolute is-animation" data-manus_click_id="114" data-manus_clickable="true" id="w-snje5z2w"><div class="text-block"><h2 class="text-block-css full-width">Nguyễn Thúy Hằng </h2></div></div><div class="com-text-block p-absolute is-animation" data-manus_click_id="115" data-manus_clickable="true" id="w-5gqpjann"><div class="text-block"><h2 class="text-block-css full-width">&amp;</h2></div></div></div></div></div><div class="com-section" data-manus_click_id="116" data-manus_clickable="true" data-section="" id="w-1w8at2c5"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative">
+<div class="com-text-block p-absolute" data-manus_click_id="97" data-manus_clickable="true" id="w-mmy730wz"><div class="text-block"><p class="text-block-css full-width">Gửi Mừng Cưới<br/></p></div></div><div class="com-image-block p-absolute" data-manus_click_id="98" data-manus_clickable="true" id="w-nrcl2o7p"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div></div></div></div></div></div><div class="com-section" data-manus_click_id="99" data-manus_clickable="true" data-section="" id="w-ve3j29zh"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative"><div class="com-image-block p-absolute is-animation" data-manus_click_id="100" data-manus_clickable="true" id="w-1zd7gutp"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="101" data-manus_clickable="true" id="w-ibxp7o7m"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="102" data-manus_clickable="true" id="w-za5q6n3r"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="103" data-manus_clickable="true" id="w-jd4xh8jy"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div></div></div></div><div class="com-section" data-manus_click_id="104" data-manus_clickable="true" data-section="" id="w-ww9w4n3i"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative"><div class="com-image-block p-absolute is-animation" data-manus_click_id="105" data-manus_clickable="true" id="w-afrqv1j2"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="106" data-manus_clickable="true" id="w-712glnp4"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-image-block p-absolute is-animation" data-manus_click_id="107" data-manus_clickable="true" id="w-t7zoid0w"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position">
+  
+  
+  <div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div></div></div></div>
+  
+  <div class="com-section" data-manus_click_id="108" data-manus_clickable="true" data-section="" id="w-pet7zq4u">
+    <div class="section-wrapper full-width full-height p-relative">
+      <div class="section-background p-absolute full-width full-height lazy"></div>
+      <div class="section-container full-height p-relative">
+        <div class="com-gallery p-absolute" data-manus_click_id="109" data-manus_clickable="true" id="w-8f240uev">
+          <div class="gallery-wrapper full-width full-height p-absolute">
+            <div class="gallery-view p-absolute">
+              <div aria-label="" class="gallery-view-item p-absolute active lazy" data-index="0" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="1" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="2" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="3" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="4" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="5" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="6" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="7" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="8" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="9" role="img"></div>
+              <div aria-label="" class="gallery-view-item p-absolute lazy" data-index="10" role="img"></div>
+              <div class="gallery-view-icon-next">
+                <img alt="navigation" src="assets/images/ce7bea1db3f2c535a89a2c99988aeba8d3a361b2c72c9d08950d10e7_ba2e208f.svg" />
+                <div class="icon-next"></div>
+              </div>
+              <div class="gallery-view-icon-prev">
+                <img alt="navigation" src="assets/images/41806a12b05813bfc36f3ad3d1a580aa060a9d8f1736cc38e197a61f_fd402d82.svg" />
+                <div class="icon-prev"></div>
+              </div>
+            </div>
+            <div class="gallery-controls">
+              <div class="gallery-scroll full-height">
+                <div class="gallery-controls-wrap">
+                  <div class="gallery-controls-item active lazy" data-index="0"></div>
+                  <div class="gallery-controls-item lazy" data-index="1"></div>
+                  <div class="gallery-controls-item lazy" data-index="2"></div>
+                  <div class="gallery-controls-item lazy" data-index="3"></div>
+                  <div class="gallery-controls-item lazy" data-index="4"></div>
+                  <div class="gallery-controls-item lazy" data-index="5"></div>
+                  <div class="gallery-controls-item lazy" data-index="6"></div>
+                  <div class="gallery-controls-item lazy" data-index="7"></div>
+                  <div class="gallery-controls-item lazy" data-index="8"></div>
+                  <div class="gallery-controls-item lazy" data-index="9"></div>
+                  <div class="gallery-controls-item lazy" data-index="10"></div>
+                </div>
+              </div>
+              <div class="gallery-controls-icon-next">
+                <img alt="navigation" src="assets/images/ce7bea1db3f2c535a89a2c99988aeba8d3a361b2c72c9d08950d10e7_ba2e208f.svg" />
+                <div class="control-next"></div>
+              </div>
+              <div class="gallery-controls-icon-prev">
+                <img alt="navigation" src="assets/images/41806a12b05813bfc36f3ad3d1a580aa060a9d8f1736cc38e197a61f_fd402d82.svg" />
+                <div class="control-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+(function () {
+  const gallery = document.getElementById('w-8f240uev');
+  if (!gallery) return;
+
+  const slides = [...gallery.querySelectorAll('.gallery-view-item')];
+  const dots   = [...gallery.querySelectorAll('.gallery-controls-item')];
+  const scrollBox = gallery.querySelector('.gallery-scroll');
+
+  const nextBtns = gallery.querySelectorAll(
+    '.gallery-view-icon-next, .gallery-controls-icon-next'
+  );
+  const prevBtns = gallery.querySelectorAll(
+    '.gallery-view-icon-prev, .gallery-controls-icon-prev'
+  );
+
+  let current = 0;
+  const total = slides.length;
+
+  function scrollToDot(index) {
+    if (!scrollBox || !dots[index]) return;
+
+    const dot = dots[index];
+    const offset =
+      dot.offsetLeft -
+      scrollBox.clientWidth / 2 +
+      dot.clientWidth / 2;
+
+    scrollBox.scrollTo({
+      left: offset,
+      behavior: 'smooth'
+    });
+  }
+
+  function show(index) {
+    if (index === current) return;
+
+    if (index < 0) index = total - 1;
+    if (index >= total) index = 0;
+
+    const currentSlide = slides[current];
+    const nextSlide = slides[index];
+
+    slides.forEach(slide => {
+      slide.classList.remove('active', 'left', 'right', 'origin');
+      slide.style.display = 'none';
+    });
+
+    // slide hiện tại trượt ra
+    currentSlide.style.display = 'block';
+    currentSlide.classList.add(index > current ? 'left' : 'right');
+
+    // slide tiếp theo trượt vào
+    nextSlide.style.display = 'block';
+    nextSlide.classList.add('active', 'origin');
+
+    dots.forEach(d => d.classList.remove('active'));
+    dots[index]?.classList.add('active');
+
+    scrollToDot(index);
+    current = index;
+  }
+
+  nextBtns.forEach(btn =>
+    btn.addEventListener('click', () => show(current + 1))
+  );
+
+  prevBtns.forEach(btn =>
+    btn.addEventListener('click', () => show(current - 1))
+  );
+
+  dots.forEach(dot =>
+    dot.addEventListener('click', () =>
+      show(+dot.dataset.index)
+    )
+  );
+
+  // INIT
+  slides[0].style.display = 'block';
+  slides[0].classList.add('active', 'origin');
+})();
+</script>
+
+
+
+
+  
+  <div class="com-section" data-manus_click_id="110" data-manus_clickable="true" data-section="" id="w-1kyvmtv5"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative"><div class="com-text-block p-absolute is-animation" data-manus_click_id="111" data-manus_clickable="true" id="w-80wcf9fe"><div class="text-block"><p class="text-block-css full-width">Rất Hân Hạnh Được Đón Tiếp!</p></div></div><div class="com-text-block p-absolute is-animation" data-manus_click_id="112" data-manus_clickable="true" id="w-eyju40b5"><div class="text-block"><h2 class="text-block-css full-width">Đức Kiên </h2></div></div><div class="com-text-block p-absolute is-animation" data-manus_click_id="113" data-manus_clickable="true" id="w-9bqblrni"><div class="text-block"><h2 class="text-block-css full-width">07.03.2026 </h2></div></div><div class="com-text-block p-absolute is-animation" data-manus_click_id="114" data-manus_clickable="true" id="w-snje5z2w"><div class="text-block"><h2 class="text-block-css full-width">Nguyễn Thúy Hằng </h2></div></div><div class="com-text-block p-absolute is-animation" data-manus_click_id="115" data-manus_clickable="true" id="w-5gqpjann"><div class="text-block"><h2 class="text-block-css full-width">&amp;</h2></div></div></div></div></div><div class="com-section" data-manus_click_id="116" data-manus_clickable="true" data-section="" id="w-1w8at2c5"><div class="section-wrapper full-width full-height p-relative"><div class="section-background p-absolute full-width full-height lazy"></div><div class="section-container full-height p-relative">
   
   <div class="p-absolute group-auto-scroll sroll-size" data-manus_click_id="117" data-manus_clickable="true" id="w-wt9hm9p1"><div class="group-container"><div class="com-text-block p-absolute" data-manus_click_id="118" data-manus_clickable="true" id="w-zdxmdp4a"><div class="text-block"><h1 class="text-block-css full-width">ĐỨC KIÊN & THÚY HẰNG</h1></div></div><div class="p-absolute" data-manus_click_id="122" data-manus_clickable="true" id="w-pjxg653g"><div class="line-css full-width"><div class="line-container"></div></div></div><a class="com-rectangle p-absolute cursor-pointer" data-manus_click_id="123" data-manus_clickable="true" href="https://nys311.github.io/Thiep-Cuoi/" id="w-v0y7lpx8" title="Open link https://nys311.github.io/Thiep-Cuoi/"><div class="rectangle-css full-mask-size mask-position full-height full-width lazy"><div class="rectangle-gradient-border"></div></div></a></div></div></div></div></div><div class="com-popup d-none popup-center" id="w-__popup_default__"><div class="popup-wrapper p-absolute full-width full-height"><div class="popup-background p-absolute full-width full-height"></div><div class="com-rectangle p-absolute cursor-pointer" id="w-au0o7yap"><div class="rectangle-css full-mask-size mask-position full-height full-width lazy"><div class="rectangle-gradient-border"></div></div></div><div class="com-image-block p-absolute" id="w-63tws5md"><div class="image-block-css p-relative full-width full-height full-mask-size mask-position"><div aria-label="" class="image-background p-absolute lazy" role="img"></div><div class="image-gradient-border"></div></div></div><div class="com-text-block p-absolute" id="w-fvc92ffz"><div class="text-block"><p class="text-block-css full-width">Thank You!</p></div></div><div class="com-text-block p-absolute is-animation" id="w-f4xg0wvk"><div class="text-block"><h2 class="text-block-css full-width">Cảm Ơn Quý Khách Đã Phản Hồi,<br/>Rất Hân Hạnh Được Đón Tiếp!<br/></h2></div></div></div></div>
 
@@ -13621,7 +13787,7 @@ BÀ TRẦN THỊ THƯ ANH <br/></p></div></div><div class="com-html-box p-absolu
         "type": "text-block",
         "specials": {
           "tag": "p",
-          "text": " 💐 Gửi Mừng Cưới 💐<br>"
+          "text": "Gửi Mừng Cưới"
         },
         "id": "mmy730wz",
         "desktop": {
@@ -14527,7 +14693,7 @@ BÀ TRẦN THỊ THƯ ANH <br/></p></div></div><div class="com-html-box p-absolu
 
     <p><b>Nhà Gái</b></p>
     <img
-      src="assets/images/qr-banking-Hang.png"
+      src="assets/images/qr-banking-Hang.jpg"
       style="width: 200px;"
       alt="QR chuyển khoản"
     >
@@ -14599,6 +14765,8 @@ BÀ TRẦN THỊ THƯ ANH <br/></p></div></div><div class="com-html-box p-absolu
     });
   });
 </script>
+
+
 
 
 </body>
