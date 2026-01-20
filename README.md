@@ -1,7 +1,3 @@
-# Wedding Invitation Website
-
-This project is a static version of the wedding invitation website originally hosted at [https://www.ewedinvite.site/MAUHOADOBE](https://www.ewedinvite.site/MAUHOADOBE).
-
 ## Project Structure
 
 - `index.html`: The main entry point of the website.
